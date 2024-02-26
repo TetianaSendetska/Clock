@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\Tania Sendetska\Documents\Visual Studio 2022\Projects\Clock\Clock\main.cpp(220,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tania Sendetska\Documents\Visual Studio 2022\Projects\Clock\Clock\main.cpp(221,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tania Sendetska\Documents\Visual Studio 2022\Projects\Clock\Clock\main.cpp(264,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tania Sendetska\Documents\Visual Studio 2022\Projects\Clock\Clock\main.cpp(271,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Clock.vcxproj -> C:\Users\Tania Sendetska\Documents\Visual Studio 2022\Projects\Clock\Debug\Clock.exe
