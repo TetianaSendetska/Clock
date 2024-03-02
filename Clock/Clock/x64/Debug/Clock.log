@@ -1,0 +1,44 @@
+﻿  main.cpp
+C:\Users\Tania Sendetska\Documents\Visual Studio 2022\Projects\Clock\Clock\Clock\main.cpp(122,24): warning C4267: '=': conversion from 'size_t' to 'GLint', possible loss of data
+C:\Users\Tania Sendetska\Documents\Visual Studio 2022\Projects\Clock\Clock\Clock\main.cpp(220,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tania Sendetska\Documents\Visual Studio 2022\Projects\Clock\Clock\Clock\main.cpp(221,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tania Sendetska\Documents\Visual Studio 2022\Projects\Clock\Clock\Clock\main.cpp(264,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tania Sendetska\Documents\Visual Studio 2022\Projects\Clock\Clock\Clock\main.cpp(271,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwDestroyWindow referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwGetFramebufferSize referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwGetKey referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewBindBuffer referenced in function "void __cdecl CreateClock(void)" (?CreateClock@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewBufferData referenced in function "void __cdecl CreateClock(void)" (?CreateClock@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGenBuffers referenced in function "void __cdecl CreateClock(void)" (?CreateClock@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewAttachShader referenced in function "void __cdecl AddShader(unsigned int,char const *,unsigned int)" (?AddShader@@YAXIPEBDI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewCompileShader referenced in function "void __cdecl AddShader(unsigned int,char const *,unsigned int)" (?AddShader@@YAXIPEBDI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewCreateProgram referenced in function "void __cdecl CompileShader(void)" (?CompileShader@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewCreateShader referenced in function "void __cdecl AddShader(unsigned int,char const *,unsigned int)" (?AddShader@@YAXIPEBDI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewEnableVertexAttribArray referenced in function "void __cdecl CreateClock(void)" (?CreateClock@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramInfoLog referenced in function "void __cdecl CompileShader(void)" (?CompileShader@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramiv referenced in function "void __cdecl CompileShader(void)" (?CompileShader@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderInfoLog referenced in function "void __cdecl AddShader(unsigned int,char const *,unsigned int)" (?AddShader@@YAXIPEBDI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderiv referenced in function "void __cdecl AddShader(unsigned int,char const *,unsigned int)" (?AddShader@@YAXIPEBDI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGetUniformLocation referenced in function "void __cdecl CompileShader(void)" (?CompileShader@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewLinkProgram referenced in function "void __cdecl CompileShader(void)" (?CompileShader@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewShaderSource referenced in function "void __cdecl AddShader(unsigned int,char const *,unsigned int)" (?AddShader@@YAXIPEBDI@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___glewUniform1f referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewUniformMatrix4fv referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewUseProgram referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewValidateProgram referenced in function "void __cdecl CompileShader(void)" (?CompileShader@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewVertexAttribPointer referenced in function "void __cdecl CreateClock(void)" (?CreateClock@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewBindVertexArray referenced in function "void __cdecl CreateClock(void)" (?CreateClock@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGenVertexArrays referenced in function "void __cdecl CreateClock(void)" (?CreateClock@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glewExperimental referenced in function main
+C:\Users\Tania Sendetska\Documents\Visual Studio 2022\Projects\Clock\Clock\\..\..\..\External Libs\glew-2.1.0\lib\Release\Win32\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Tania Sendetska\Documents\Visual Studio 2022\Projects\Clock\Clock\\..\..\..\External Libs\glfw-3.3.8.bin.WIN32\lib-vc2022\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Tania Sendetska\Documents\Visual Studio 2022\Projects\Clock\Clock\x64\Debug\Clock.exe : fatal error LNK1120: 35 unresolved externals
